@@ -1,0 +1,22 @@
+<html>
+<head>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="hoekschrift.js"></script>
+    <script type="text/javascript">
+        $(document).ready( function() {
+            var $txt = $("#in");
+            var $cnv = $("#out");
+            $("#do").click(function(){
+                $.hoekschrift($cnv, $txt.val());
+            });
+        });
+    </script>
+</head>
+<body>
+<h1>testpage</h1>
+<textarea id="in" cols="130" rows="10">enter tekst</textarea>
+<button id="do">encrypt</button>
+<hr>
+<canvas id="out" height="600" width="600" >
+</body>
+</html>
