@@ -1,0 +1,10 @@
+This project will cypher your plain text into secret symbols drawn on an HTML5 canvas.
+
+'hoekschrift' is the flemish (dutch) name for a cryptographic technique that is quite popular with local boyscouts and the like.
+
+Interesting to know is that it has ancient roots and was in use widely within the freemasons. It is also known as "The pigpen cipher", "the masonic cipher", "Freemason's cipher", or "Rosicrucian cipher") See public references:
+* http://www.excommunicate.net/the-freemasons-secret-code/
+* http://en.wikipedia.org/wiki/Pigpen_cipher
+
+This little toy project was actually started to get me started on playing with the HTML5 canvas API.
+Would be nice if someone ventured into the decypher side of things: doing pattern-recognition and all on uploaded/scanned images of cyphered text  :)
